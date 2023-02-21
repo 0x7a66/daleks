@@ -1,0 +1,46 @@
+/risk-common/src/main/resources/public/
+
+# maven ignore
+target/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.tar.gz
+.flattened-pom.xml
+
+# gradle ignore
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+.mymetadata
+.myeclipse/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# visual-studio-code ignore
+.vscode/
+
+# temp ignore
+out/
+build/
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+*~
+.DS_Store
+Thumbs.db
+*.orig
